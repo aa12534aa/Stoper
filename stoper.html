@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stoper</title>
+        <link rel="stylesheet" href="stoper.css">
+    </head>
+    <body>
+        <div class="contener">
+            <p class="title">Timer</p>
+            <p class="limit">After 60 min the stoper will stop</p>
+            <div class="timmer">
+                <div class="js-minutes">00</div>
+                <div class="js-seconds">:00:</div>
+                <div class="js-milliseconds">00</div>
+            </div>
+            <div class="buttons">
+                <button class="js-start-stop start-button">
+                    Start
+                </button>
+                <button class="lap-button">
+                    Lap
+                </button>
+                <button class="js-reset reset-button">
+                    Reset
+                </button>
+            </div>
+        </div>
+        <div class="times js-times"></div>
+        <script src="stoper.js"></script>
+    </body>
+</html>
